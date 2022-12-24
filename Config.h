@@ -70,7 +70,7 @@ public:
 			std::cout << "Description: " << data[i].first << " Value: " << data[i].second << std::endl;
 	}
 
-	std::string getDataByDescrtiption(std::string description)
+	std::string getDataByDescription(std::string description)
 	{
 		std::string retData;
 		for (int i = 0; i < data.size(); i++)
